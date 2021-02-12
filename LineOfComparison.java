@@ -1,3 +1,4 @@
+import java.lang.Integer;
 import java.util.Scanner;
 import java.lang.Math;
 public class LineOfComparison
@@ -57,6 +58,20 @@ public class LineOfComparison
 				System.out.println("Lines are not Equal");
 			}
 
+			Integer Length1 = (int) Length_Of_Line1;
+			Integer Length2 = (int) Length_Of_Line2;
+
+			int Result = Length1.compareTo(Length2);
+
+			if(Result == 0 )
+			{
+				System.out.println("Line 1 is Greater ");
+			}
+			else
+			{
+				 System.out.println("Line 2 is Greater ");
+
+			}
 	}
 	public static void main(String args[])
 	{
